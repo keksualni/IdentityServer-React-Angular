@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keksualni.API", "keksualni.API\keksualni.API.csproj", "{22294121-2433-47B4-9730-B9C9F2854354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keksualni.Auth", "keksualni.Auth\keksualni.Auth.csproj", "{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22294121-2433-47B4-9730-B9C9F2854354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22294121-2433-47B4-9730-B9C9F2854354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22294121-2433-47B4-9730-B9C9F2854354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22294121-2433-47B4-9730-B9C9F2854354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
