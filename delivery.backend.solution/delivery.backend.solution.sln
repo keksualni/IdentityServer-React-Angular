@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.API", "keksualni.API\delivery.API.csproj", "{22294121-2433-47B4-9730-B9C9F2854354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.API", "delivery.API\delivery.API.csproj", "{22294121-2433-47B4-9730-B9C9F2854354}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.Auth", "keksualni.Auth\delivery.Auth.csproj", "{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.Auth", "delivery.Auth\delivery.Auth.csproj", "{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
