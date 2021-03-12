@@ -9,8 +9,13 @@ namespace keksualni.Auth
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
+                .AddInMemoryApiResources(Configuration.ApiResources)
+                .AddInMemoryApiScopes(Configuration.ApiScopes)
+                .AddInMemoryClients(Configuration.Clients);
         }
-        
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -18,7 +23,7 @@ namespace keksualni.Auth
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            app.UseIdentityServer();
         }
     }
 }
