@@ -1,8 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keksualni.API", "keksualni.API\keksualni.API.csproj", "{22294121-2433-47B4-9730-B9C9F2854354}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.API", "keksualni.API\delivery.API.csproj", "{22294121-2433-47B4-9730-B9C9F2854354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keksualni.Auth", "keksualni.Auth\keksualni.Auth.csproj", "{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.Auth", "keksualni.Auth\delivery.Auth.csproj", "{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +21,11 @@ Global
 		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07F33EAD-1E9A-4650-9CAD-A560A35F25ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81721A39-943C-4871-AD9D-EA5E30E39D10}
 	EndGlobalSection
 EndGlobal
